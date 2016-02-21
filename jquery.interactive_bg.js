@@ -20,7 +20,9 @@
     scale: 1.05,
     animationSpeed: "100ms",
     contain: true,
-    wrapContent: false
+    wrapContent: false,
+	horizontal: true,
+	vertical: true
   };  
   
   $.fn.interactive_bg = function(options){
@@ -112,8 +114,8 @@
                 pageY = e.pageY || e.clientY,
                 pageX = (pageX - el.offset().left) - (w / 2),
                 pageY = (pageY - el.offset().top) - (h / 2),
-                newX = ((sw * pageX)) * - 1,
-                newY = ((sh * pageY)) * - 1;
+                newX = ((sw * pageX)) * - settings.horizontal,
+                newY = ((sh * pageY)) * - settings.vertical;
             // Use matrix to move the background from its origin
             // Also, disable transition to prevent lag
             el.find("> .ibg-bg").css({
