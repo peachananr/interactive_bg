@@ -71,10 +71,10 @@
 
           function deviceMotionHandler(eventData) {
             var accX = Math.round(event.accelerationIncludingGravity.x*10) / 10,
-            accY = Math.round(event.accelerationIncludingGravity.y*10) / 10,
-            xA = -(accX / 10) * settings.strength,
-              yA = -(accY / 10) * settings.strength,
-              newX = -(xA*2),
+                accY = Math.round(event.accelerationIncludingGravity.y*10) / 10,
+                xA = -(accX / 10) * settings.strength,
+                yA = -(accY / 10) * settings.strength,
+                newX = -(xA*2),
                 newY = -(yA*2);
 
             el.find("> .ibg-bg").css({
