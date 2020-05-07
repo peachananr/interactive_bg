@@ -4,11 +4,9 @@ Created by [Pete R.](http://www.thepetedesign.com), Founder of [Travelistly](htt
 
 License: [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/deed.en_US)
 
-[![Interactive BG (Background)](http://www.thepetedesign.com/images/interactive_bg_image.png "Interactive BG (Background")](http://www.thepetedesign.com/demos/interactive_bg_demo.html)
-
 
 ## Demo
-[View demo](http://www.thepetedesign.com/demos/interactive_bg_demo.html)
+[View demo](http://peachananr.github.io/interactive_bg/demo/interactive_bg_demo.html)
 
 ## Compatibility
 Modern browsers such as Chrome, Firefox, and Safari on both desktop and smartphones have been tested. Not tested on IE.
